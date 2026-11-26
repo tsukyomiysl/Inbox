@@ -5,6 +5,5 @@ async def delivery_separation(code : int | None) -> str | None:
         return "retry"
     elif 200 <= code < 300:
         return "delivered"
-    
     elif 300 <= code < 500:
             return "failed"
