@@ -1,4 +1,3 @@
-from models.agent_model import hook_agent
 from requests_funcs.post_request import send_post_request
 from requests_funcs.delivery_result import delivery_separation
 from datetime import datetime
